@@ -2,7 +2,19 @@
 
 Este proyecto es una **API RESTful** desarrollada en **.NET** utilizando **Entity Framework** para operaciones CRUD sobre la entidad Cliente.  
 
+## Tecnologías: 
+- .NET 8
+- EF Core
+- SQL Server
+- Swagger
 ---
+
+## Requisitos
+- .NET 8 SDK
+- SQL Server 2019+
+- Visual Studio 2022 o VS Code
+- Postman o navegador para probar Swagger
+
 
 ## 📁 Estructura del proyecto
 API Cliente con EF
@@ -32,7 +44,7 @@ Antes de ejecutar la aplicación, debes configurar tus credenciales en el archiv
 }
  ```
 
-Ejecuta las migraciones de EF Core con :
+Ejecuta las migraciones de EF Core desde la consola de admnistrador de paquetes con :
 ```sh
 Update-Database
 ```
